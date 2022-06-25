@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+#head-nav {
+    background: #2f8bee;
+    padding: 10px 0 10px 0;
+    border: 20px whitesmoke double;
+}
+
+#navg {
+    color: white;
+}
+
+#logo {
+    background: url(/now/hamu-official/img/logo.png) center no-repeat;
+    height: 50px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+#list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+#list a {
+    display: block;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+@media screen and (min-width: 1024px) {}
